@@ -102,6 +102,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\hookldr.exe" />
+    <None Include="Resources\screenhooks32.dll" />
+    <None Include="Resources\screenhooks64.dll" />
+    <None Include="Resources\tvnserver.exe" />
     <Content Include="resource\szxlc.ico" />
     <Content Include="resource\szxlc.png" />
     <Content Include="szxlc.ico" />

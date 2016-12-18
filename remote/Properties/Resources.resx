@@ -120,10 +120,23 @@
   <data name="companyURL" xml:space="preserve">
     <value>szxlc.3322.org</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hookldr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hookldr.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="remoteEndPort" xml:space="preserve">
     <value>5508</value>
   </data>
   <data name="remoteStartPort" xml:space="preserve">
     <value>5500</value>
+  </data>
+  <data name="screenhooks32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screenhooks32.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="screenhooks64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screenhooks64.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tvnserver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tvnserver.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -70,6 +70,16 @@ namespace szxlc.remote.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] hookldr {
+            get {
+                object obj = ResourceManager.GetObject("hookldr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 5508 的本地化字符串。
         /// </summary>
         internal static string remoteEndPort {
@@ -84,6 +94,36 @@ namespace szxlc.remote.Properties {
         internal static string remoteStartPort {
             get {
                 return ResourceManager.GetString("remoteStartPort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] screenhooks32 {
+            get {
+                object obj = ResourceManager.GetObject("screenhooks32", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] screenhooks64 {
+            get {
+                object obj = ResourceManager.GetObject("screenhooks64", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] tvnserver {
+            get {
+                object obj = ResourceManager.GetObject("tvnserver", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }
